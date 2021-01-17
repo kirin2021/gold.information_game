@@ -14,9 +14,16 @@ li{
 .header-logo{
     float: left;
     margin: 15px;
+    display: flex;
 }
 .header-logo img{
     border-radius: 50%;
+}
+.header-name{
+    float: left;
+    margin-left: 30px;
+    color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header-list li{
@@ -49,10 +56,16 @@ li{
 }
 .contents-items{
     display: flex;
+    background-color: aquamarine;
+
     
 }
-.Othello{
-    
+.contents-item{
+    padding: 30px;
+}
+
+.contents-item p{
+    text-align: center;
 }
 
 .footer{
